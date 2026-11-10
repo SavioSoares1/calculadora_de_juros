@@ -186,11 +186,7 @@ for meses in range(anos * 12 + 1):
 
 tir_mensal = npf.irr(fluxos)
 
-tir_anual = (1 + tir_mensal) ** 12 - 1
-
 tir_mp = tir_mensal * 100
-
-tir_ap = tir_anual * 100
 
 # CARDS / KPIs - linha 1
 
